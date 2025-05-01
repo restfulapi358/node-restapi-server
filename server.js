@@ -44,7 +44,7 @@ app.use(express.json());
 // Apply token check globally
 app.use(validateApiToken);
 
-/** add route */
+/** add routes */
 app.use('/v1/api', booksRoute);
 
 // /hello route
